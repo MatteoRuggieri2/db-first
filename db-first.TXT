@@ -1,27 +1,29 @@
 used_cars
 
 
-brand - string
+car_id - INT
 
-model - string
+brand - VARCHAR(20)
 
-year - date
+model - VARCHAR(30)
 
-km_done - number
+year - YEAR
 
-fuel - string
+km_done - MEDIUMINT
 
-type_of_gearbox - string
+fuel - VARCHAR(15)
 
-number_of_doors - number
+type_of_gearbox - VARCHAR(15)
 
-seats - number
+number_of_doors - TINYINT
 
-type_of_car - string
+seats - TINYINT
 
-insurance - number(boolean)
+type_of_car - VARCHAR(15)
 
-price - number
+insurance - TINYINT
+
+price - DECIMAL(9, 2)
 
 
 
