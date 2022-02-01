@@ -1,27 +1,27 @@
 used_cars
 
 
-brand
+brand - string
 
-model
+model - string
 
-year
+year - date
 
-km_done
+km_done - number
 
-fuel
+fuel - string
 
-type_of_gearbox
+type_of_gearbox - string
 
-number_of_doors
+number_of_doors - number
 
-seats
+seats - number
 
-type_of_car
+type_of_car - string
 
-insurance
+insurance - number(boolean)
 
-price
+price - number
 
 
 
