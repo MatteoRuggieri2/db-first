@@ -1,11 +1,11 @@
 used_cars
 
 
-car_id - INT
+car_id - INT - PRIMARY_KEY - AUTO_INCREMENT
 
-brand - VARCHAR(20)
+brand - VARCHAR(20) - NOT NULL
 
-model - VARCHAR(30)
+model - VARCHAR(30) - NOT NULL
 
 year - YEAR
 
@@ -23,7 +23,7 @@ type_of_car - VARCHAR(15)
 
 insurance - TINYINT
 
-price - DECIMAL(9, 2)
+price - DECIMAL(9, 2) - NOT NULL
 
 
 
